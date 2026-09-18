@@ -217,6 +217,29 @@ nav img.logo{height:50px;width:auto}
     *{transition-duration:.01ms !important}
   }
 
+
+/* ---------- layout plan ---------- */
+.plan-container {
+  margin-top: 24px;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+  padding: 16px;
+  text-align: center;
+}
+.plan-img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: 650px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
 /* ---------- carousel styles ---------- */
 .carousel {
   position: relative;
@@ -505,8 +528,10 @@ img:not(.logo):not(.rvmc-logo) {
 </section>
 
 <section class="wrap" id="plans">
-  <h2 class="kicker">Layout &amp; Unit Plans</h2>
-  <img src="Images/layout.webp" alt="Site Layout Plan" class="plan-img">
+  <h2 class="kicker">Master Layout Plan</h2>
+  <div class="plan-container">
+    <img src="Images/layout.webp" alt="Master Layout Plan - SRJ Jainco Enclave" class="plan-img">
+  </div>
 </section>
 
 <section class="wrap" id="villas">
